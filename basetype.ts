@@ -65,12 +65,13 @@ function infiniteLoop(): never {
     }
 }
 
-
 // 类型断言
 let someValue: any = 'I know this is string';
 let strLength: number = (<string>someValue).length;
 
 
+let someValue1: any = 'This is a string';
+let strLength1: number = (someValue1 as String).length;
 
 
 export {};
