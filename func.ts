@@ -11,4 +11,4 @@ let desk = {
             return {suit: this.suits[pickedSuit], card: pickedCard % 13}
         }
     }
-}
+};
